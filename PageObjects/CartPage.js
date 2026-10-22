@@ -2,6 +2,7 @@ class CartPage
 {
    constructor(page)
    {
+      // this is cart page
     this.page=page;
      this.Product=page.locator("div[class='cartSection'] h3");
      this.checkout=page.locator("text=Checkout");
